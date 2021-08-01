@@ -11,14 +11,14 @@ class FortiSdkGo < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/stobias123/forti-sdk-go/releases/download/v1.5.1/forti-sdk-go_1.5.1_macOS_amd64.zip"
-      sha256 "029d52d7bd9b8ffce001342756bd5f1b0eee84a60b1e161ace0822b5ede92385"
+      sha256 "a77321d5d55c19d0151adfb88477116804d8158e2fd95d221c4b488157824759"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
       url "https://github.com/stobias123/forti-sdk-go/releases/download/v1.5.1/forti-sdk-go_1.5.1_linux_amd64.zip"
-      sha256 "342bd52e638bd4627d8743fee971f113f719f310103be5f8c2f28bc2642e86c6"
+      sha256 "67ac172e56c52fbb23a5fa808dbe78422043159d5221c60818ebb4e5b5fe42b3"
     end
   end
 
